@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html class="" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta name="generator" content="Hugo 0.38.2"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Your Enterprise Kubernetes Platform | Rancher Labs</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="canonical" href="https://rancher.com/">
+    <link href="https://rancher.com/index.xml" rel="alternate" type="application/rss+xml"
+          title="Your Enterprise Kubernetes Platform  | Rancher Labs"/>
+    <link rel="stylesheet" type="text/css" href="css/app.css?1532547159"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css" rel="stylesheet"/>
+    <script charset="utf-8" type="text/javascript" src="js/vendor.js?1532547159"></script>
+    <script charset="utf-8" type="text/javascript" src="js/app.js?1532547159"></script>
+    <meta name="description"
+          content="Rancher is enterprise management for Kubernetes. Every distro. Every cluster. Every cloud. "/>
+    <meta name="robots" content="noodp"/>
+    <link rel="canonical" href="https://rancher.com/"/>
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:description"
+          content="Rancher is enterprise management for Kubernetes. Every distro. Every cluster. Every cloud. "/>
+    <meta name="twitter:title" content="Your Enterprise Kubernetes Platform"/>
+    <meta name="twitter:site" content="@Rancher_Labs"/>
+    <meta name="twitter:creator" content="@Rancher_Labs"/>
+
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Your Enterprise Kubernetes Platform">
+    <meta property="og:description"
+          content="Rancher is enterprise management for Kubernetes. Every distro. Every cluster. Every cloud. ">
+    <meta property="og:url" content="https://rancher.com/"/>
+    <meta property="og:site_name" content="Rancher Labs"/>
+    <meta property="og:image" content="img/logo-square.png"/>
+
+    <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": "https://rancher.com/",
+    "name": "Rancher Labs",
+     "author": {
+        "@type": "Person",
+        "name": "{ .Site.Params.author }}"
+      },
+    "description": "{ .Site.Params.description }}",
+  }
+
+    </script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-56382716-3']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+                'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+    </script>
+</head>
+<body lang="en" class="">
+<div class="row middle-xs between-xs m-a-0 p-a-xs mobile-header bg-link">
+    <div class="col-xs-4">
+        <a href="#"><img src="/img/rancher-logo-horiz-white.svg" alt="rancher logo"></a>
+    </div>
+    <div class="col-xs text-right">
+        <a href="#ml-stack-nav-1" class="ml-stack-nav-toggle m-a-sm" aria-controls="ml-stack-nav-1"
+           title="Toggle the navigation">
+            <span class="ml-stack-nav-toggle__line"></span>
+            <span class="ml-stack-nav-toggle__line"></span>
+            <span class="ml-stack-nav-toggle__line"></span>
+        </a>
+    </div>
+</div>
+
+<nav id="ml-stack-nav-1" class="ml-stack-nav js-ml-stack-nav" aria-expanded="false">
+    <ul class="ml-stack-nav__menu">
+        <li class="ml-stack-nav__item">
+            <div class="ml-stack-nav__item-inner">
+                <a href="" class="ml-stack-nav__link">What is Rancher</a>
+                <a class="ml-stack-nav__next js-ml-stack-nav-next" title="Go to the next level"><i
+                        class="material-icons">keyboard_arrow_right</i></a>
+            </div>
+            <ul class="ml-stack-nav__menu">
+                <li class="ml-stack-nav__item">
+                    <a class="btn bg-link ml-stack-nav__back js-ml-stack-nav-back" title="Go to the previous level"><i
+                            class="material-icons">keyboard_arrow_left</i> Back</a>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/what-is-rancher/overview/" class="ml-stack-nav__link">Overview</a>
+                    </div>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/what-is-rancher/what-rancher-adds-to-kubernetes/"
+                           class="ml-stack-nav__link">What Rancher Adds to Kubernetes</a>
+                    </div>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/what-is-rancher/how-is-rancher-different/"
+                           class="ml-stack-nav__link">How is Rancher Different</a>
+                    </div>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/kubernetes/" class="ml-stack-nav__link">Run Kubernetes Anywhere</a>
+                    </div>
+                </li>
+            </ul>
+        <li class="ml-stack-nav__item">
+            <div class="ml-stack-nav__item-inner">
+                <a href="" class="ml-stack-nav__link">Products</a>
+                <a class="ml-stack-nav__next js-ml-stack-nav-next" title="Go to the next level"><i
+                        class="material-icons">keyboard_arrow_right</i></a>
+            </div>
+            <ul class="ml-stack-nav__menu">
+                <li class="ml-stack-nav__item">
+                    <a class="btn bg-link ml-stack-nav__back js-ml-stack-nav-back" title="Go to the previous level"><i
+                            class="material-icons">keyboard_arrow_left</i> Back</a>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/what-is-rancher/overview/" class="ml-stack-nav__link">Rancher</a>
+                    </div>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/rancher-os/" class="ml-stack-nav__link">RancherOS</a>
+                    </div>
+                </li>
+            </ul>
+        <li class="ml-stack-nav__item">
+            <div class="ml-stack-nav__item-inner">
+                <a href="" class="ml-stack-nav__link">Learn</a>
+                <a class="ml-stack-nav__next js-ml-stack-nav-next" title="Go to the next level"><i
+                        class="material-icons">keyboard_arrow_right</i></a>
+            </div>
+            <ul class="ml-stack-nav__menu">
+                <li class="ml-stack-nav__item">
+                    <a class="btn bg-link ml-stack-nav__back js-ml-stack-nav-back" title="Go to the previous level"><i
+                            class="material-icons">keyboard_arrow_left</i> Back</a>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/blog/" class="ml-stack-nav__link">Blog</a>
+                    </div>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/events/" class="ml-stack-nav__link">Events</a>
+                    </div>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://forums.rancher.com/" class="ml-stack-nav__link">Forums</a>
+                    </div>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/docs/" class="ml-stack-nav__link">Rancher Docs</a>
+                    </div>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/training/" class="ml-stack-nav__link">Training</a>
+                    </div>
+                </li>
+            </ul>
+        <li class="ml-stack-nav__item">
+            <div class="ml-stack-nav__item-inner">
+                <a href="https://rancher.com/about/" class="ml-stack-nav__link">About</a>
+                <a class="ml-stack-nav__next js-ml-stack-nav-next" title="Go to the next level"><i
+                        class="material-icons">keyboard_arrow_right</i></a>
+            </div>
+            <ul class="ml-stack-nav__menu">
+                <li class="ml-stack-nav__item">
+                    <a class="btn bg-link ml-stack-nav__back js-ml-stack-nav-back" title="Go to the previous level"><i
+                            class="material-icons">keyboard_arrow_left</i> Back</a>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/about/" class="ml-stack-nav__link">About Us</a>
+                    </div>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/careers/" class="ml-stack-nav__link">Careers</a>
+                    </div>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/contact/" class="ml-stack-nav__link">Contact Us</a>
+                    </div>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/partners/" class="ml-stack-nav__link">Partners</a>
+                    </div>
+                </li>
+                <li class="ml-stack-nav__item">
+                    <div class="ml-stack-nav__item-inner">
+                        <a href="https://rancher.com/press/" class="ml-stack-nav__link">Press</a>
+                    </div>
+                </li>
+            </ul>
+        <li class="ml-stack-nav__item">
+            <a href="" class="btn">
+                <span></span>
+            </a>
+        </li>
+        </li>
+    </ul>
+</nav>
+
+<div class="main">
+    <header class="p-h-sm">
+        <div class="row middle-md between-md">
+            <div class="pull-left">
+                <a href="#"><img src="/img/rancher-logo-horiz-white.svg" width="150" height="22" alt="rancher logo"></a>
+            </div>
+            <div class="">
+                <nav>
+                    <ul class="main-menu row middle-md">
+                        <li class="dropdown sub-menu ">
+                            <a href="" class="btn"><span>What is Rancher <i
+                                    class='material-icons'>keyboard_arrow_down</i></span></a>
+                            <ul class="sub dropdown-menu">
+                                <li class="">
+                                    <a href="https://rancher.com/what-is-rancher/overview/">Overview </a>
+                                <li class="">
+                                    <a href="https://rancher.com/what-is-rancher/what-rancher-adds-to-kubernetes/">What
+                                        Rancher Adds to Kubernetes </a>
+                                <li class="">
+                                    <a href="https://rancher.com/what-is-rancher/how-is-rancher-different/">How is
+                                        Rancher Different </a>
+                                <li class="">
+                                    <a href="https://rancher.com/kubernetes/">Run Kubernetes Anywhere </a>
+                            </ul>
+                        <li class="dropdown sub-menu ">
+                            <a href="" class="btn"><span>Products <i
+                                    class='material-icons'>keyboard_arrow_down</i></span></a>
+                            <ul class="sub dropdown-menu">
+                                <li class="">
+                                    <a href="https://rancher.com/what-is-rancher/overview/">Rancher </a>
+                                <li class="">
+                                    <a href="https://rancher.com/rancher-os/">RancherOS </a>
+                            </ul>
+                        <li class="dropdown sub-menu ">
+                            <a href="" class="btn"><span>Learn <i class='material-icons'>keyboard_arrow_down</i></span></a>
+                            <ul class="sub dropdown-menu">
+                                <li class="">
+                                    <a href="https://rancher.com/blog/">Blog </a>
+                                <li class="">
+                                    <a href="https://rancher.com/events/">Events </a>
+                                <li class="">
+                                    <a href="https://forums.rancher.com/">Forums <i class='material-icons text-sm'>launch</i></a>
+                                <li class="">
+                                    <a href="https://rancher.com/docs/">Rancher Docs </a>
+                                <li class="">
+                                    <a href="https://rancher.com/training/">Training </a>
+                            </ul>
+                        <li class="dropdown sub-menu ">
+                            <a href="https://rancher.com/about/" class="btn"><span>About <i class='material-icons'>keyboard_arrow_down</i></span></a>
+                            <ul class="sub dropdown-menu">
+                                <li class="">
+                                    <a href="https://rancher.com/about/">About Us </a>
+                                <li class="">
+                                    <a href="https://rancher.com/careers/">Careers </a>
+                                <li class="">
+                                    <a href="https://rancher.com/contact/">Contact Us </a>
+                                <li class="">
+                                    <a href="https://rancher.com/partners/">Partners </a>
+                                <li class="">
+                                    <a href="https://rancher.com/press/">Press </a>
+                            </ul>
+                        <li class="">
+                            <a href="" class="btn"><span> </span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="pull-right">
+                <a class="text-white p-r-xs" href="#" id="button-search"><i class="material-icons">search</i></a>
+                <a href="https://rancher.com/quick-start" class="text-white p-r-sm"><i class="material-icons">cloud_upload</i>
+                    Deploy Rancher</a>
+                <a href="https://rancher.com/support" class="text-white"><i class="material-icons">chat</i> Get Support</a>
+            </div>
+        </div>
+        <div class="container-search">
+            <form id="searchForm"><input type="search" class='' id='search-box' autocomplete="off"></input></form>
+        </div>
+    </header>
+    <div class="overlay-search">
+        <div class="search-results" id="hits"></div>
+    </div>
+
+    <section class="hero">
+        <div class="wrapper">
+            <div class="row center-xs">
+                <div class="col-md-8 col-sm-10 p-a-lg">
+                    <p class="m-a-0">WPROWADZENIE DO RANCHER 2.0</p>
+                    <hr/>
+                    <h1>Zarządzanie Kubernetesem</h1>
+                    <p class="text-md">Rancher is zarządcą dla Kubernetesa.<br/>Dowolna dystrybucja. Dowolny klaster.
+                        Dowolna chmura. </p>
+                    <div class="row center-xs m-t-md">
+                        <button class="modal-open btn border-btn m-h-sm" data-launch-id="uniq-button-1">Obejrzyj
+                            demonstrację
+                        </button>
+                        <div class="modal-content" id="uniq-button-1">
+                            <div class="content">
+                                <div class="text-center">
+                                    <iframe src="https://player.vimeo.com/video/263551174" width="640" height="360"
+                                            frameborder="0" webkitallowfullscreen="" mozallowfullscreen=""
+                                            allowfullscreen=""></iframe>
+                                </div>
+                            </div>
+                            <div class="footer-button-label" data-footer-label="close"></div>
+                            <div class="css-classes" data-css-classes="class1,class2"></div>
+                            <div class="close-label" data-close-label="close"></div>
+                            <div class="include-footer" data-include-footer="true"></div>
+                            <div class="sticky-footer" data-sticky-footer=""></div>
+                        </div>
+                        <a class="btn border-btn m-h-sm" href="https://rancher.com/quick-start">Użyj Rancher 2.0</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <div class="wrapper">
+            <div class="cta-banner row center-xs middle-xs bg-info shadow rounded-corners">
+                <h3 class="m-v-sm m-r-sm text-white">Building a CI/CD Pipeline with Kubernetes and Rancher 2.0</h3>
+                <a href="http://info.rancher.com/august-2018-building-cicd-pipeline-with-kubernetes" target="_blank"
+                   class="btn border-btn">Register here</a>
+            </div>
+        </div>
+
+        <section class="p-v-lg">
+            <div class="wrapper row middle-xs">
+                <div class="col-md-4 text-right">
+                    <h2 class="m-t-0">Twoja platforma zarządzania kontenerami</h2>
+                    <p>Rancher jest otwartoźródłowym oprogramowaniem, które łączy wszystko, co organizacja potrzebuje do użycia
+                        kontenerów w produkcji. Zbudowany na Kubernetesie, Rancher czyni łatwymi pracę zespołu DevOps by testować,
+                        wdrażać i zarządzać aplikacjami. Zespoły operacyjne używają Ranchera do wdrożeń, zarządzania i zabezpieczania
+                        wdrożeń na Kubernetesie niezależnie od tego, gdzie jest dokonywane.</p>
+                    <a href="http://info.rancher.com/rancher2-technical-architecture" class="btn bg-accent"
+                       target="_blank">Jak działa Rancher</a>
+                </div>
+                <div class="col-md-8">
+                    <img src="https://rancher.com
+/img/dashboard.png" alt="dashboard"/>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-link p-h-lg">
+            <div class="row center-xs text-center p-v-md border-right text-white">
+                <div class="col-md col-xs-12">
+                    <a href="https://rancher.com/kubernetes" class="">
+                        <i class="material-icons dot p-a-xs text-white">flash_on</i>
+                        <h5>Run Kubernetes<br/>Anywhere</h5>
+                    </a>
+                </div>
+                <div class="col-md col-xs-12">
+                    <a href="what-is-rancher/cluster-operations" class="">
+                        <i class="material-icons dot p-a-xs text-white">device_hub</i>
+                        <h5>Multi-Cluster<br/>Management</h5>
+                    </a>
+                </div>
+                <div class="col-md col-xs-12">
+                    <a href="what-is-rancher/what-rancher-adds-to-kubernetes" class="">
+                        <i class="material-icons dot p-a-xs text-white">gamepad</i>
+                        <h5>Centralized<br/>Policy Management</h5>
+                    </a>
+                </div>
+                <div class="col-md col-xs-12">
+                    <a href="https://rancher.com/what-is-rancher/workload-management/" class="">
+                        <i class="material-icons dot p-a-xs text-white">settings</i>
+                        <h5>Workload<br/>Management UI</h5>
+                    </a>
+                </div>
+                <div class="col-md col-xs-12">
+                    <a href="what-is-rancher/open-source/" class="">
+                        <i class="material-icons dot p-a-xs text-white">lock_open</i>
+                        <h5>No Vendor<br/>Lock-In</h5>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-v-lg">
+            <div class="wrapper">
+                <h2 class="text-center">More than 5,000 <br/>organizations trust Rancher</h2>
+                <div class="homepage-slider">
+                    <!--       <div class="js_slider slider js_multislides multislides js_percentage percentage">
+                      <div class="frame js_frame">
+                        <ul class="slides js_slides box-list">
+
+
+                    <li class="js_slide p-a-sm text-left">
+
+                        <blockquote class="m-a-0">
+                          <img src="/img/quotelogos/ibm.png" alt="IBM Analytics">
+                          <div class="p-b-sm">"We’ve been able to migrate a massive implementation of VMs to containers using Rancher, saving money and improving the service we deliver to more than 1 million users."</div>
+                          <hr class="p-v-xs m-a-0" />
+                          <cite>Leon Katsnelson,<br/><span class="text-sm">Director &amp; CTO, Emerging Technologies</span></cite>
+                        </blockquote>
+                    </li>
+
+                    <li class="js_slide p-a-sm text-left">
+
+                        <blockquote class="m-a-0">
+                          <img src="/img/quotelogos/laterooms.png" alt="LateRooms.com">
+                          <div class="p-b-sm">"Moving from VMs to Rancher’s orchestration has been a massive benefit for us."</div>
+                          <hr class="p-v-xs m-a-0" />
+                          <cite>Steve Elliot,<br/><span class="text-sm">Performance and Reliability Specialist</span></cite>
+                        </blockquote>
+                    </li>
+
+                    <li class="js_slide p-a-sm text-left">
+
+                        <blockquote class="m-a-0">
+                          <img src="/img/quotelogos/kloeckner.png" alt="Kloeckner">
+                          <div class="p-b-sm">"It’s much easier for us to sell ideas internally with the tools and cohesive UI Rancher provides. For us, it’s made microservices tangible for our entire organization."</div>
+                          <hr class="p-v-xs m-a-0" />
+                          <cite>Nick Thomas,<br/><span class="text-sm">Senior Developer</span></cite>
+                        </blockquote>
+                    </li>
+
+                    <li class="js_slide p-a-sm text-left">
+
+                        <blockquote class="m-a-0">
+                          <img src="/img/quotelogos/ihmei.jpg" alt="Institute for Health Metrics and Evaluation (IHMEI)">
+                          <div class="p-b-sm">"Anything we can do to make the deployment process simpler and faster is an excellent way for us to focus on what we do best."</div>
+                          <hr class="p-v-xs m-a-0" />
+                          <cite>Andrew Ernst,<br/><span class="text-sm">IT Operations Manager</span></cite>
+                        </blockquote>
+                    </li>
+
+                    <li class="js_slide p-a-sm text-left">
+
+                        <blockquote class="m-a-0">
+                          <img src="/img/quotelogos/tno.png" alt="TNO">
+                          <div class="p-b-sm">"With Rancher, the time it takes us to set up development and production environments and to upgrade services on these environments has decreased significantly."</div>
+                          <hr class="p-v-xs m-a-0" />
+                          <cite>Johan van der Geest,<br/><span class="text-sm">Scientist Innovator</span></cite>
+                        </blockquote>
+                    </li>
+
+                    <li class="js_slide p-a-sm text-left">
+
+                        <blockquote class="m-a-0">
+                          <img src="/img/quotelogos/blippar.png" alt="Blippar">
+                          <div class="p-b-sm">"With Rancher, we get to finally focus on coding."</div>
+                          <hr class="p-v-xs m-a-0" />
+                          <cite>Clement Dal Palu,<br/><span class="text-sm">Senior Data Architect, Blippar</span></cite>
+                        </blockquote>
+                    </li>
+
+                    <li class="js_slide p-a-sm text-left">
+
+                        <blockquote class="m-a-0">
+                          <img src="/img/quotelogos/demandbase.jpeg" alt="DemandBase">
+                          <div class="p-b-sm">"Moving to containers and leveraging Rancher allowed us to reduce deploy times from hours to minutes, while helping to reduce our infrastructure footprint."</div>
+                          <hr class="p-v-xs m-a-0" />
+                          <cite>Michael Waltz,<br/><span class="text-sm">Senior DevOps Engineer at Demandbase</span></cite>
+                        </blockquote>
+                    </li>
+
+                    <li class="js_slide p-a-sm text-left">
+
+                        <blockquote class="m-a-0">
+                          <img src="/img/quotelogos/dstv.png" alt="DStv">
+                          <div class="p-b-sm">"Rancher has made running and migrating to Docker &#34;Simpler, Better, faster&#34; right from inception all the way to Production. It is an awesome product and suite."</div>
+                          <hr class="p-v-xs m-a-0" />
+                          <cite>Greg Van Wyngaard,<br/><span class="text-sm">Systems Architect</span></cite>
+                        </blockquote>
+                    </li>
+
+                    <li class="js_slide p-a-sm text-left">
+
+                        <blockquote class="m-a-0">
+                          <img src="/img/quotelogos/BravissimoLtd.png" alt="Bravissimo Ltd">
+                          <div class="p-b-sm">"Rancher hits that sweet spot of providing powerful container orchestration capabilities without adding too many layers of complexity"</div>
+                          <hr class="p-v-xs m-a-0" />
+                          <cite>Luke Bennett,<br/><span class="text-sm">Customer Systems Development Manager</span></cite>
+                        </blockquote>
+                    </li>
+
+                    <li class="js_slide p-a-sm text-left">
+
+                        <blockquote class="m-a-0">
+                          <img src="/img/quotelogos/orange.png" alt="Orange France">
+                          <div class="p-b-sm">"Rancher&#39;s user-friendy UI, the way you can manage containers, the services, the easy installation, really make the difference."</div>
+                          <hr class="p-v-xs m-a-0" />
+                          <cite>Florian Le Galudec,<br/><span class="text-sm">Ops Engineer</span></cite>
+                        </blockquote>
+                    </li>
+
+                    <li class="js_slide p-a-sm text-left">
+
+                        <blockquote class="m-a-0">
+                          <img src="/img/quotelogos/sling.png" alt="Sling TV">
+                          <div class="p-b-sm">"Using Rancher 2.0 increases our efficiency and provides our engineering teams with more time to focus on creating the next great innovations that will help Sling TV build upon its leadership position."</div>
+                          <hr class="p-v-xs m-a-0" />
+                          <cite>Brad Linder,<br/><span class="text-sm">Cloud Native and Big Data Evangelist</span></cite>
+                        </blockquote>
+                    </li>
+
+                    <li class="js_slide p-a-sm text-left">
+
+                        <blockquote class="m-a-0">
+                          <img src="/img/quotelogos/centra.jpeg" alt="Cetera">
+                          <div class="p-b-sm">"Containers are changing how we build and run applications at Cetera, and Rancher has provided a platform that enables everyone to understand and adopt this technology."</div>
+                          <hr class="p-v-xs m-a-0" />
+                          <cite>Naiden Calintaru,<br/><span class="text-sm">Enterprise Architect</span></cite>
+                        </blockquote>
+                    </li>
+
+
+
+                        </ul>
+                      </div>
+                      <span class="js_prev prev" style="padding-left: 10px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 501.5 501.5"><g><path fill="#2E435A" d="M302.67 90.877l55.77 55.508L254.575 250.75 358.44 355.116l-55.77 55.506L143.56 250.75z"/></g></svg>
+                      </span>
+                      <span class="js_next next" style="padding-right: 10px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 501.5 501.5"><g><path fill="#2E435A" d="M199.33 410.622l-55.77-55.508L247.425 250.75 143.56 146.384l55.77-55.507L358.44 250.75z"/></g></svg>
+                      </span>
+                    </div> -->
+                    <div class="box-list">
+                        <div class="box-list-item">
+                            <div class="box box-list-content">
+                                <div class="img-wrap row center-xs middle-xs"><img src="https://rancher.com
+/img/quotelogos/ibm.png" alt="ibm logo"/></div>
+                                <p>We’ve been able to migrate a massive implementation of VMs to containers using
+                                    Rancher, saving money and improving the service we deliver to more than 1 million
+                                    users.</p>
+                                <cite>Leon Katsnelson<br/><span
+                                        class="text-sm">Director & CTO, Emerging Technologies</span></cite>
+                            </div>
+                        </div>
+
+                        <div class="box-list-item">
+                            <div class="box box-list-content">
+                                <div class="img-wrap row center-xs middle-xs"><img src="https://rancher.com
+/img/quotelogos/kloeckner.png" alt="kloeckner logo"/></div>
+
+                                <p>It’s much easier for us to sell ideas internally with the tools and cohesive UI
+                                    Rancher provides. For us, it’s made microservices tangible for our entire
+                                    organization.</p>
+                                <cite>Nick Thomas<br/><span class="text-sm">Senior Developer</span></cite>
+                            </div>
+                        </div>
+
+                        <div class="box-list-item">
+                            <div class="box box-list-content">
+                                <div class="img-wrap row center-xs middle-xs"><img src="https://rancher.com
+/img/quotelogos/tno.png" alt="tno logo"/></div>
+
+                                <p>With Rancher, the time it takes us to set up development and production environments
+                                    and to upgrade services on these environments has decreased significantly.</p>
+                                <cite>Johan van der Geest<br/><span class="text-sm">Scientist Innovator</span></cite>
+                            </div>
+                        </div>
+
+                        <div class="box-list-item">
+                            <div class="box box-list-content">
+                                <div class="img-wrap row center-xs middle-xs"><img src="https://rancher.com
+/img/quotelogos/demandbase.jpeg" alt="demandbase logo"/></div>
+                                <p>Moving to containers and leveraging Rancher allowed us to reduce deploy times from
+                                    hours to minutes, while helping to reduce our infrastructure footprint.</p>
+                                <cite>Michael Waltz<br/><span
+                                        class="text-sm">Senior DevOps Engineer at Demandbase</span></cite>
+                            </div>
+                        </div>
+
+                        <div class="box-list-item">
+                            <div class="box box-list-content">
+                                <div class="img-wrap row center-xs middle-xs"><img src="https://rancher.com
+/img/quotelogos/sling.png" alt="sling tv logo"/></div>
+                                <p>Using Rancher 2.0 increases our efficiency and provides our engineering teams with
+                                    more time to focus on creating the next great innovations that will help Sling TV
+                                    build upon its leadership position.</p>
+                                <cite>Brad Linder<br/><span class="text-sm">Cloud Native and Big Data Evangelist</span></cite>
+                            </div>
+                        </div>
+
+                        <div class="box-list-item">
+                            <div class="box box-list-content">
+                                <div class="img-wrap row center-xs middle-xs"><img src="https://rancher.com
+/img/quotelogos/centra.jpeg" alt="centra logo"/></div>
+                                <p>Containers are changing how we build and run applications at Cetera, and Rancher has
+                                    provided a platform that enables everyone to understand and adopt this
+                                    technology.</p>
+                                <cite>Naiden Calintaru<br/><span class="text-sm">Enterprise Architect</span></cite>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="wrapper">
+                <div class="row middle-md">
+                    <div class="col-md-6  text-right">
+                        <h2>Manage Kubernetes Clusters Across The Enterprise</h2>
+                        <p>Rancher meets all enterprise IT requirements. In one turnkey solution, your organization can
+                            centrally manage all of their Kubernetes clusters, access control, infrastructure, and
+                            security policies. Rancher enables you to collect all of your clusters, no matter where they
+                            reside and manage them as a single, integrated environment.</p>
+                        <hr class="hidden-md"/>
+                        <div class="p-a-sm center-xs text-center middle-xs">
+                            <div class="row border-right">
+                                <div class="col-md col-xs-12 ">
+                                    <p><strong>Centralized<br/>Authentication</strong></p>
+                                </div>
+                                <div class="col-md col-xs-12 ">
+                                    <p><strong>Role-Based<br/>Access Control</strong></p>
+                                </div>
+                                <div class="col-md col-xs-12 ">
+                                    <p><strong>Enterprise-Class<br/>Support</strong></p>
+                                </div>
+                            </div>
+                            <a href="https://rancher.com
+/what-is-rancher/overview" class="btn bg-accent m-t-sm">More Features</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="/img/spot/spot-enterprise.svg" alt="enterprise"/>
+                    </div>
+                </div>
+        </section>
+        <section class="p-b-lg">
+            <div class="wrapper">
+                <div class="row middle-md">
+                    <div class="col-md-6  text-right">
+                        <img src="/img/spot/spot-developers.svg" alt="developers"/>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Simplify Running Containers In Production</h2>
+                        <p>Rancher empowers DevOps organizations. With its easy to understand UI, application catalog
+                            and integrated tools, teams can simplify adoption of Kubernetes, giving them time to build
+                            applications faster and get to market with features your customers will love.</p>
+                        <hr class="hidden-md"/>
+                        <div class="p-a-sm center-xs text-center middle-xs">
+                            <div class="row border-right">
+                                <div class="col-md col-xs-12 ">
+                                    <p><strong>One-Click<br/>Deployments</strong></p>
+                                </div>
+                                <div class="col-md col-xs-12 ">
+                                    <p><strong>Manage CI/CD<br/>Pipelines</strong></p>
+                                </div>
+                                <div class="col-md col-xs-12 ">
+                                    <p><strong>Intuitive<br/>UI</strong></p>
+                                </div>
+                            </div>
+                            <a href="https://rancher.com
+/what-is-rancher/overview" class="btn bg-accent m-t-sm">More Features</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p-v-lg bg-link cloud">
+            <div class="wrapper center-md text-center">
+                <h2>Get started with Rancher</h2>
+                <div class="row p-a-md center-md border-right">
+                    <div class="col-md-4">
+                        <i class="material-icons dot p-a-sm">flight_takeoff</i>
+                        <h3 class="text-white"><a href="https://rancher.com
+/quick-start" class="btn border-btn">Deploy Rancher 2.0</a></h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <i class="material-icons dot p-a-sm">event</i>
+                        <h3 class="text-white"><a href="https://rancher.com
+/training" class="btn border-btn">Register For Training</a></h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <i class="material-icons dot p-a-sm">perm_phone_msg</i>
+                        <h3 class="text-white"><a href="https://rancher.com
+/contact" class="btn border-btn">Talk With Sales</a></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p-v-lg">
+            <div class="wrapper row center-xs middle-xs">
+                <div class="col-md-3"><img src="https://rancher.com
+/img/spot/spot-ebook.svg" alt="ebook"/></div>
+                <div class="col-md-6">
+                    <h2>Supercharge your CI/CD Pipeline with Containers</h2>
+                    <p>This ebook will cover a workflow for code development, continuous integration and deployment, as
+                        well as zero-downtime updates.</p>
+                    <a class="btn bg-accent" href="http://info.rancher.com/cicd-with-docker-ebook" target="_blank">Download</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="bg-default p-v-xs p-h-sm">
+        <div class="">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-xs-12">
+                    <h3>Products</h3>
+                    <ul class="unstyled">
+                        <li><a href="https://rancher.com/what-is-rancher/overview/">Rancher</a></li>
+                        <li><a href="https://rancher.com/rancher-os">RancherOS</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-xs-12">
+                    <h3>Docs</h3>
+                    <ul class="unstyled">
+                        <li><a href="http://rancher.com/docs/rancher/v2.x/en/" target="blank">Rancher 2.0 Docs</a></li>
+                        <li><a href="https://rancher.com/docs/rancher/v1.6/en/" target="blank">Rancher 1.6 Docs</a></li>
+                        <li><a href="https://rancher.com/docs/os/v1.x/en/" target="blank">RancherOS</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-xs-12">
+                    <h3>Learn</h3>
+                    <ul class="unstyled">
+                        <li><a href="https://info.rancher.com/schedule-a-rancher-demo" target="blank">Schedule a
+                            demo</a></li>
+                        <li><a href="https://rancher.com/training">Rancher Kubernetes Training</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-xs-12">
+                    <h3>About</h3>
+                    <ul class="unstyled">
+                        <li><a href="https://rancher.com/about">About Us</a></li>
+                        <li><a href="https://rancher.com/blog">Blog</a></li>
+                        <li><a href="https://rancher.com/careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-xs-12">
+                    <h3>Support</h3>
+                    <ul class="unstyled">
+                        <li><a href="https://rancher.com/contact">Contact</a></li>
+                        <li><a href="https://rancher.com/support">Get Support</a></li>
+                        <li><a href="http://slack.rancher.io/" target="blank">Slack</a></li>
+                        <li><a href="https://forums.rancher.com/" target="blank">Forums</a></li>
+                        <li><a href="https://github.com/rancher" target="blank">GitHub</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-xs-12">
+                    <h3>Legal</h3>
+                    <ul class="unstyled">
+                        <li><a href="https://rancher.com/eula">EULA</a></li>
+                        <li><a href="https://rancher.com/support-maintenance-terms">Terms of Service Agreement</a></li>
+                        <li><a href="https://rancher.com/privacy">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row news between-xs middle-xs p-v-sm">
+                <div class="col-md row social">
+                    <a class="p-h-xs" href="https://www.youtube.com/channel/UCh5Xtp82q8wjijP8npkVTBA" target="_blank">
+                        <img src="img/icon-youtube.svg" alt="youtube" height="30" width="30">
+                    </a>
+                    <a class="p-r-xs" href="https://github.com/rancher/rancher" target="_blank">
+                        <img src="img/icon-github.svg" alt="github" height="30" width="30">
+                    </a>
+                    <a class="p-r-xs" href="https://twitter.com/Rancher_Labs" target="_blank">
+                        <img src="img/icon-twitter.svg" alt="twitter" height="30" width="30">
+                    </a>
+                    <a class="p-r-xs" href="https://www.facebook.com/rancherlabs/" target="_blank">
+                        <img src="img/icon-facebook.svg" alt="facebook" height="30" width="30">
+                    </a>
+                    <a class="p-r-xs" href="https://www.linkedin.com/groups/6977008/profile" target="_blank">
+                        <img src="img/icon-linkedin.svg" height="30" alt="linkedin" width="30">
+                    </a>
+                    <a class="p-r-xs" href="https://slack.rancher.io/" target="_blank">
+                        <img src="img/icon-slack.svg" alt="slack" height="30" width="30">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <p class="m-a-0">Get the latest news</p>
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                    <script>
+                        hbspt.forms.create({
+                            css: '',
+                            portalId: '468859',
+                            formId: '8beed251-ecf0-49fc-93a1-fa9b1446110f'
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="row end-md">
+                <div class="text-small text-muted text-center p-a-sm">© 2014-2018 RANCHER LABS, INC. ALL RIGHTS
+                    RESERVED.
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script type="text/javascript">
+    _linkedin_data_partner_id = "287004";
+</script>
+<script type="text/javascript">
+    (function () {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none;" alt="tracking"
+         src="https://dc.ads.linkedin.com/collect/?pid=287004&fmt=gif"/>
+</noscript>
+<script>
+    !function (e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function () {
+            s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+        }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+            a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+
+    twq('init', 'nz747');
+    twq('track', 'PageView');
+</script>
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/468859.js"></script>
+<script>
+    (function (h, o, t, j, a, r) {
+        h.hj = h.hj || function () {
+            (h.hj.q = h.hj.q || []).push(arguments)
+        };
+        h._hjSettings = {hjid: 745525, hjsv: 6};
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5af1cc6793d86bfb" async></script>
+</body>
+</html>
+
+
