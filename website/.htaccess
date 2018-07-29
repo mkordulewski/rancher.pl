@@ -1,7 +1,7 @@
 RewriteEngine On
 
 # redirection from subdomains
-RewriteCond %{HTTP_HOST} ^(.+)\.(rancher\.pl)$ [NC]
+RewriteCond %{HTTP_HOST} ^(.+)\.(([^.]+)\.pl)$ [NC]
 RewriteRule ^ https://%2%{REQUEST_URI} [R=301,L,NE]
 
 # force ssl
