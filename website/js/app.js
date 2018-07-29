@@ -2607,7 +2607,7 @@ var bootstrapMarketingSearch = function bootstrapMarketingSearch() {
     autofocus: true,
     loadingIndicator: true,
     container: '#search-box',
-    placeholder: 'Search Blog, Events, etc...',
+    placeholder: 'Przeszukaj...',
     magnifier: false,
     reset: true
   }));
