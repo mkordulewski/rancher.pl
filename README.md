@@ -1,4 +1,4 @@
 # Rancher.pl
 
 * Polish Rancher website:
-  * http://rancher.pl/
+  * https://rancher.pl/
